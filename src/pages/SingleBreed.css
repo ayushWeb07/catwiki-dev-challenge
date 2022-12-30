@@ -1,0 +1,252 @@
+.breed_hero {
+    background-color: white;
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.breed_hero>img {
+    width: 40%;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.breed_hero_content {
+    width: 60%;
+    padding-left: 5%;
+}
+
+.breed_hero_content>h1 {
+    color: #291507;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.breed_hero_content>p {
+    color: #291507;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    margin: 3% 0;
+}
+
+.breed_hero_content>h2 {
+    color: #291507;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.breed_hero_content>h2>span {
+    font-weight: 700;
+}
+
+.breed_stars {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    margin-left: auto;
+}
+
+.breed_star {
+    width: 52px;
+    height: 10px;
+    background-color: #E0E0E0;
+    border-radius: 30px;
+}
+
+.breed_photos {
+    padding: 0 5% 5% 5%;
+}
+
+.breed_photos>h2 {
+    color: #291507;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.breed_photos_section {
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+.breed_photos_section>img {
+    width: 20vw;
+    height: 40vh;
+    border-radius: 20px;
+    object-fit: cover;
+    justify-self: center;
+}
+
+/* Design for <= 600px devices */
+@media screen and (max-width:600px) {
+
+    .breed_hero {
+        padding: 10% 5%;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 50px;
+    }
+
+    .breed_hero>img {
+        width: 100%;
+    }
+
+    .breed_hero_content {
+        width: -webkit-fill-available;
+        padding-left: 0;
+
+    }
+
+    .breed_hero_content>p {
+        margin: 6% 0;
+    }
+
+    .breed_hero_content>h2 {
+        margin-bottom: 6%;
+    }
+
+    .breed_star {
+        width: 23px;
+        height: 8px;
+    }
+
+    .breed_photos {
+        padding: 0 5% 10% 5%;
+    }
+
+    .breed_photos_section {
+        margin-top: 7%;
+        grid-template-columns: auto auto;
+    }
+
+    .breed_photos_section>img {
+        width: 100%;
+        height: 25vh
+    }
+
+
+
+}
+
+/* Design for 601-800px devices */
+@media screen and (min-width:601px) and (max-width:800px) {
+
+    .breed_hero {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 50px;
+    }
+
+    .breed_hero>img {
+        width: 80%;
+        margin: auto;
+    }
+
+    .breed_hero_content {
+        width: -webkit-fill-available;
+        padding-left: 0;
+
+    }
+
+    .breed_hero_content>p {
+        margin: 6% 0;
+    }
+
+    .breed_hero_content>h2 {
+        margin-bottom: 6%;
+    }
+
+    .breed_star {
+        width: 30px;
+        height: 8px;
+    }
+
+    .breed_photos {
+        padding: 0 5% 5% 5%;
+    }
+
+    .breed_photos_section {
+        margin-top: 7%;
+        grid-template-columns: auto auto;
+    }
+
+    .breed_photos_section>img {
+        width: 100%;
+        height: 25vh
+    }
+
+}
+
+
+
+/* Design for 801-1000px devices */
+@media screen and (min-width:801px) and (max-width:1000px) {
+
+    .breed_hero {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 50px;
+    }
+
+    .breed_hero>img {
+        width: 80%;
+        margin: auto;
+    }
+
+    .breed_hero_content {
+        width: -webkit-fill-available;
+        padding-left: 0;
+    }
+
+    .breed_hero_content>p {
+        margin: 4% 0;
+    }
+
+    .breed_hero_content>h2 {
+        margin-bottom: 4%;
+    }
+
+    .breed_star {
+        width: 36px;
+        height: 8px;
+    }
+
+    .breed_photos {
+        padding: 0 5% 5% 5%;
+    }
+
+    .breed_photos_section {
+        margin-top: 7%;
+        grid-template-columns: auto auto;
+    }
+
+    .breed_photos_section>img {
+        width: 100%;
+        height: 35vh
+    }
+
+}
+
+
+/* Design for 1001-1100px devices */
+@media screen and (min-width:1001px) and (max-width:1100px) {
+
+    .breed_photos_section>img {
+        height: 30vh;
+    }
+
+
+}

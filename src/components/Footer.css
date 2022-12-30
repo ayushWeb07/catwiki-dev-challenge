@@ -1,0 +1,29 @@
+footer {
+    margin: 0 5%;
+    padding: 2%;
+    background-color: #E3E1DC;
+    border: 2px solid #E3E1DC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    position: sticky;
+    bottom: 0;
+    width: -webkit-fill-available;
+}
+
+footer>h2 {
+    color: #291507;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+/* Design for <= 700px devices */
+@media screen and (max-width:700px) {
+    footer {
+        margin: 0;
+        padding: 5%;
+    }
+}

@@ -1,0 +1,10 @@
+header {
+    background-color: white;
+    padding: 2% 5%;
+}
+
+header>img {
+    width: 150px;
+    object-fit: cover;
+    cursor: pointer;
+}
